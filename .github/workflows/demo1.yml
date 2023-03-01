@@ -10,6 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-PULL-step
-Branch1_From_Main
-        run: echo "Hello World!***** Branch1*******"
-
+        run: echo "Branch1::Hello World!"
