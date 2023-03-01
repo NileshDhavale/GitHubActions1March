@@ -4,8 +4,14 @@ jobs:
   push-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-PUSH-step
-        run: echo "Hello World!"
+      - name: my-PUSH-step1
+        run: echo "Hello World!-1111"
+      - name: my-PUSH-step2
+        run: echo "Hello World!-22222"
+      - name: my-PUSH-step4
+        run: echo "Hello World!-4444"
+      - name: my-PUSH-step3
+        run: echo "Hello World!-3333"
   pull_request:
     runs-on: ubuntu-latest
     steps:
